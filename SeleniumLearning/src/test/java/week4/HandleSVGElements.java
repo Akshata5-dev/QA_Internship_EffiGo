@@ -20,8 +20,6 @@ public class HandleSVGElements {
 		 
 		 //identify svg element 
 		 driver.findElement(By.xpath("//a[normalize-space()='']//*[name()='svg']"));
-		 
-
 	}
 
 }
