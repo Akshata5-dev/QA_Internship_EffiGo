@@ -1,103 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-04T21:48:17 IST" name="Suite" finished-at="2025-03-04T21:48:31 IST" duration-ms="13205">
+  <suite started-at="2025-03-05T11:54:06 IST" name="Suite" finished-at="2025-03-05T11:54:49 IST" duration-ms="43113">
     <groups>
     </groups>
-    <test started-at="2025-03-04T21:48:17 IST" name="Test" finished-at="2025-03-04T21:48:31 IST" duration-ms="13205">
-      <class name="ListenersDemo.OrangeHRM">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ListenersDemo.OrangeHRM@a1153bc]" started-at="2025-03-04T21:48:18 IST" name="setup" finished-at="2025-03-04T21:48:27 IST" duration-ms="9714" status="PASS">
+    <test started-at="2025-03-05T11:54:06 IST" name="Test" finished-at="2025-03-05T11:54:49 IST" duration-ms="43113">
+      <class name="POM_PatternDemo.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:POM_PatternDemo.LoginTest@692f203f]" started-at="2025-03-05T11:54:06 IST" name="setup" finished-at="2025-03-05T11:54:42 IST" duration-ms="36278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testlogo()[pri:1, instance:ListenersDemo.OrangeHRM@a1153bc]" started-at="2025-03-04T21:48:27 IST" name="testlogo" finished-at="2025-03-04T21:48:31 IST" duration-ms="3091" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:POM_PatternDemo.LoginTest@692f203f]" started-at="2025-03-05T11:54:42 IST" name="testLogin" finished-at="2025-03-05T11:54:49 IST" duration-ms="6792" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testlogo -->
-        <test-method signature="testAppurl()[pri:2, instance:ListenersDemo.OrangeHRM@a1153bc]" started-at="2025-03-04T21:48:31 IST" name="testAppurl" finished-at="2025-03-04T21:48:31 IST" duration-ms="15" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [https://google.com] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [https://google.com] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at ListenersDemo.OrangeHRM.testAppurl(OrangeHRM.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAppurl -->
-        <test-method signature="testHomePageTitle()[pri:3, instance:ListenersDemo.OrangeHRM@a1153bc]" started-at="2025-03-04T21:48:31 IST" name="testHomePageTitle" finished-at="2025-03-04T21:48:31 IST" depends-on-methods="ListenersDemo.OrangeHRM.testAppurl" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method OrangeHRM.testHomePageTitle()[pri:3, instance:ListenersDemo.OrangeHRM@a1153bc] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method OrangeHRM.testHomePageTitle()[pri:3, instance:ListenersDemo.OrangeHRM@a1153bc] depends on not successfully finished methods
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ListenersDemo.OrangeHRM@a1153bc]" started-at="2025-03-04T21:48:31 IST" name="tearDown" finished-at="2025-03-04T21:48:31 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:POM_PatternDemo.LoginTest@692f203f]" started-at="2025-03-05T11:54:49 IST" name="tearDown" finished-at="2025-03-05T11:54:49 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- ListenersDemo.OrangeHRM -->
+      </class> <!-- POM_PatternDemo.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
