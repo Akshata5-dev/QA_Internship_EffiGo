@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="RestAssureChaining.GetUser">
+        <methods>
+          <include name="test_getUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- RestAssureChaining.GetUser -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="RestAssureChaining.UpdateUser">
+        <methods>
+          <include name="test_updateUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- RestAssureChaining.UpdateUser -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" name="Test4(failed)">
+    <classes>
+      <class name="RestAssureChaining.DeleteUser">
+        <methods>
+          <include name="test_deleteUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- RestAssureChaining.DeleteUser -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
